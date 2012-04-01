@@ -1,1 +1,18 @@
-a relatively simple FLV library written in C#
+A relatively simple FLV library written in C#
+
+
+
+This lib is extremely basic and was written mostly because I was searching for a comfortable way to Read FLV metadata directly in C#
+After searching for a while I found some basic implementation but it was wrong and failed when i tried it,
+So I just decided to code my own implementation based on the FLV spec file by adobe.
+
+This is very much a work in progress, I only implemented 3 FLV data types (string, number, array), 
+So there is a high probability it will crash when you use it, but I tried to make it easy to implement the missing bits.
+
+
+For reference please you the FLV spec file I attached to the repo,
+The E section is about FLV.
+And the most of the relevant missing implementations are in E.4.4.X
+
+P.S.
+While I wrote this mostly for metadata it should be possible to implement the full spec of FLV in this in case this is what you are searching for.

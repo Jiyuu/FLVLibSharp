@@ -32,3 +32,12 @@
 ehthumbs.db
 Icon?
 Thumbs.db
+
+
+
+
+*.sue
+debug
+Release
+bin
+obj
